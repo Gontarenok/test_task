@@ -31,7 +31,7 @@ def check_relation(net, first, second, *args):
         for j in i:
             pair_friends.append(j)
 
-    # print(f'all list {pair_friends}')
+    # print(f' all list {pair_friends}')
 
     # Убираем первоначальных пользователей, оставляет только общих друзей
     mutual_friends = []
