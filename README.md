@@ -1,6 +1,7 @@
 Проект разработан на:  
 Python 3.10.1  
 PyCharm 2022.1.3 (Professional Edition)  
+Разработчик: Гонтаренко Виктория  
 
 Для установки проекта необходимо развернуть все библиотеки из файла requirements.txt командой в терминале:  
 python -m pip install -r requirements.txt
@@ -14,6 +15,4 @@ admin/  - авторизация
 api/v1/task_2 /create/  - для создания записи в БД  
 api/v1/task_2 /all/  - для получения всех записей из БД  
 api/v1/task_2 /edit/<int:pk>/  - для редактирования записей в БД  
-api/v1/task_2 /upload/  
-
-Разработчик: Гонтаренко Виктория
+api/v1/task_2 /upload/  - загрузка файла  
